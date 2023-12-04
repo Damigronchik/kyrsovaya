@@ -1,0 +1,377 @@
+@import url("style_Portfolio.css");
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  header {
+    background: black;
+  }
+  .welcome {
+    background: black;
+  }
+  .welcome .man {
+    background: url(../../img/man_768.png) center center no-repeat;
+    width: 384px;
+  }
+  .welcome .tittle {
+    min-width: 408px;
+  }
+  .welcome .tittle .tittle_name {
+    font-size: 56px;
+  }
+  .experience {
+    margin: 80px 40px;
+  }
+  .experience .info .companies_past {
+    width: 668px;
+  }
+  .experience .companyNumerous .company {
+    width: 213px;
+    margin-right: 24px;
+  }
+  .experience .companyNumerous .company .textCompany {
+    width: 197px;
+  }
+  .experience .companyNumerous .company .dop_textCompany {
+    width: 197px;
+  }
+  .experience .companyNumerous div:last-of-type {
+    margin-right: 0;
+  }
+  .philosophy .leftSidePh {
+    margin-inline: 40px;
+  }
+  .philosophy .leftSidePh .textBlockPh {
+    margin-bottom: 67px;
+  }
+  .skillset {
+    align-items: center;
+    flex-direction: column;
+    margin-block: 80px;
+    margin-inline: 40px;
+  }
+  .skillset .tittleSkills {
+    width: 688px;
+  }
+  .skillset .blocks .top1, .skillset .blocks .top2, .skillset .blocks .bottom1, .skillset .blocks .bottom2 {
+    width: 332px;
+  }
+  .companiesLogos {
+    flex-wrap: wrap;
+    height: 280px;
+  }
+  .projects {
+    flex-direction: column;
+    align-items: center;
+    margin-block: 80px;
+    margin-inline: 40px;
+  }
+  .projects .left {
+    margin-right: 0px;
+  }
+  .projects .left, .projects .right {
+    width: 688px;
+  }
+  .projects .left .secTitleProj, .projects .right .secTitleProj {
+    margin-right: 0px;
+  }
+  .projects .left .block, .projects .right .block {
+    margin-bottom: 48px;
+  }
+  .projects .left .block .laptop, .projects .left .block .phone, .projects .left .block .bl_phone, .projects .left .block .letter, .projects .right .block .laptop, .projects .right .block .phone, .projects .right .block .bl_phone, .projects .right .block .letter {
+    width: 688px;
+  }
+  .projects .left .block .laptop, .projects .right .block .laptop {
+    background: url(../../img/laptop_768.png) center center no-repeat;
+  }
+  .projects .left .block .phone, .projects .right .block .phone {
+    background: url(../../img/phone_768.png) center center no-repeat;
+  }
+  .projects .left .block .bl_phone, .projects .right .block .bl_phone {
+    background: url(../../img/bl_phone_768.png) center center no-repeat;
+  }
+  .projects .left .block .letter, .projects .right .block .letter {
+    background: url(../../img/letter_768.png) center center no-repeat;
+  }
+  .projects .left .view, .projects .right .view {
+    margin: 0px;
+    display: none;
+  }
+  .photography {
+    margin: 80px 40px;
+  }
+  .photography .photos .landscape1, .photography .photos .landscape2, .photography .photos .landscape3, .photography .photos .landscape4 {
+    width: 332px;
+  }
+  .photography .photos .landscape1 {
+    background: url(../../img/landscape1_768.png) center center no-repeat;
+  }
+  .photography .photos .landscape2 {
+    background: url(../../img/landscape2_768.png) center center no-repeat;
+  }
+  .photography .photos .landscape3 {
+    background: url(../../img/landscape3_768.png) center center no-repeat;
+  }
+  .photography .photos .landscape4 {
+    background: url(../../img/landscape4_768.png) center center no-repeat;
+  }
+  .reg {
+    margin-block: 80px;
+    margin-inline: 40px;
+  }
+  .reg .right label input {
+    width: clamp(332px, 20vw, 526px);
+  }
+  footer .footerDiv {
+    margin-inline: 40px;
+  }
+  footer .copyright {
+    max-width: 329px;
+    margin-left: 40px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  header {
+    background: black;
+  }
+  header .header {
+    margin-inline: 20px;
+    height: 72px;
+  }
+  header .header nav {
+    display: none;
+  }
+  header .header .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 5px;
+  }
+  header .header .menu .line1, header .header .menu .line2 {
+    width: 18px;
+    height: 3px;
+    background: #C4C4C4;
+  }
+  header .header .menu .line2 {
+    width: 13px;
+  }
+  header .header .menu:hover .line1, header .header .menu:hover .line2 {
+    box-shadow: 1px 1px 5px white;
+  }
+  .welcome {
+    background: black;
+    flex-direction: column;
+    height: 652px;
+    margin-inline: 20px;
+    margin-bottom: 48px;
+  }
+  .welcome .man {
+    background: url(../../img/man_360.png) center center no-repeat;
+    width: 360px;
+    height: 288px;
+  }
+  .welcome .tittle {
+    align-items: center;
+    min-width: 320px;
+    left: 0%;
+    margin-top: 48px;
+  }
+  .welcome .tittle .tittle_name {
+    font-size: 32px;
+  }
+  .experience {
+    margin: 48px 20px;
+    align-items: center;
+  }
+  .experience .info .companies_past {
+    font-size: 32px;
+    width: 320px;
+  }
+  .experience .companyNumerous {
+    flex-direction: column;
+  }
+  .experience .companyNumerous .company {
+    width: 320px;
+    margin-bottom: 40px;
+  }
+  .experience .companyNumerous .company .dop_textCompany {
+    margin-right: 0;
+  }
+  .philosophy {
+    flex-direction: column;
+    height: 900px;
+  }
+  .philosophy .leftSidePh {
+    margin-inline: 20px;
+    margin-top: 48px;
+    max-width: 100%;
+  }
+  .philosophy .leftSidePh .textBlockPh {
+    margin-bottom: 90.75px;
+  }
+  .philosophy .leftSidePh .textBlockPh .tittlePh {
+    font-size: 32px;
+  }
+  .philosophy .forImgSphere {
+    background: url(../../img/sphere_360.png) center center no-repeat;
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+  }
+  .philosophy .forImgPlane {
+    background: url(../../img/plane_360.png) center center no-repeat;
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+  }
+  .skillset {
+    flex-direction: column;
+    align-items: center;
+    margin-block: 64px;
+    margin-inline: 20px;
+  }
+  .skillset .tittleSkills {
+    width: 320px;
+    height: 252px;
+    margin-right: 0;
+    margin-bottom: 48px;
+  }
+  .skillset .tittleSkills .tittle {
+    font-size: 32px;
+  }
+  .skillset .blocks {
+    max-width: 320px;
+  }
+  .skillset .blocks .top1 {
+    width: 320px;
+    height: 176px;
+  }
+  .skillset .blocks .top2, .skillset .blocks .bottom1, .skillset .blocks .bottom2 {
+    width: 320px;
+    height: 200px;
+  }
+  .skillset .blocks .bottom1 {
+    margin-bottom: 48px;
+  }
+  .companiesLogos {
+    flex-wrap: wrap;
+    height: 280px;
+  }
+  .companiesLogos .company {
+    width: 178px;
+    height: 138px;
+  }
+  .projects {
+    margin-top: 64px;
+    margin-bottom: 22px;
+    margin-inline: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .projects .left {
+    margin-right: 0;
+  }
+  .projects .left, .projects .right {
+    width: 320px;
+  }
+  .projects .left .secTitleProj, .projects .right .secTitleProj {
+    font-size: 32px;
+    margin-right: 0;
+  }
+  .projects .left .block, .projects .right .block {
+    margin-bottom: 48px;
+  }
+  .projects .left .block .laptop, .projects .left .block .phone, .projects .left .block .bl_phone, .projects .left .block .letter, .projects .right .block .laptop, .projects .right .block .phone, .projects .right .block .bl_phone, .projects .right .block .letter {
+    width: 320px;
+    height: 400px;
+  }
+  .projects .left .block .laptop, .projects .right .block .laptop {
+    background: url(../../img/laptop_360.png) center center no-repeat;
+  }
+  .projects .left .block .phone, .projects .right .block .phone {
+    background: url(../../img/phone_360.png) center center no-repeat;
+  }
+  .projects .left .block .bl_phone, .projects .right .block .bl_phone {
+    background: url(../../img/bl_phone_360.png) center center no-repeat;
+  }
+  .projects .left .block .letter, .projects .right .block .letter {
+    background: url(../../img/letter_360.png) center center no-repeat;
+  }
+  .projects .left .block .text, .projects .right .block .text {
+    max-height: 354px;
+  }
+  .projects .left .view, .projects .right .view {
+    display: none;
+  }
+  .photography {
+    align-items: center;
+    margin: 48px 20px;
+  }
+  .photography .tittle {
+    font-size: 32px;
+  }
+  .photography .underTittle {
+    width: 320px;
+    margin-bottom: 40px;
+  }
+  .photography .countries {
+    flex-wrap: wrap;
+    width: 320px;
+    height: 126px;
+  }
+  .photography .countries a {
+    width: 114px;
+    text-align: center;
+  }
+  .photography .photos {
+    flex-direction: column;
+  }
+  .photography .photos .landscape1, .photography .photos .landscape2, .photography .photos .landscape3, .photography .photos .landscape4 {
+    width: 320px;
+  }
+  .photography .photos .landscape1 {
+    background: url(../../img/landscape1_360.png) center center no-repeat;
+  }
+  .photography .photos .landscape2 {
+    background: url(../../img/landscape2_360.png) center center no-repeat;
+  }
+  .photography .photos .landscape3 {
+    background: url(../../img/landscape3_360.png) center center no-repeat;
+  }
+  .photography .photos .landscape4 {
+    background: url(../../img/landscape4_360.png) center center no-repeat;
+  }
+  .reg {
+    flex-direction: column;
+    margin-block: 48px;
+    margin-inline: 20px;
+  }
+  .reg .left {
+    margin-right: 0;
+    margin-bottom: 48px;
+  }
+  .reg .right {
+    align-items: center;
+  }
+  .reg .right label input {
+    width: 320px;
+  }
+  .reg .right a {
+    width: 254px;
+  }
+  footer {
+    height: 672px;
+  }
+  footer .footerDiv {
+    flex-direction: column;
+    margin: 48px 20px 0;
+  }
+  footer .footerDiv .logos {
+    margin-bottom: 48px;
+  }
+  footer .footerDiv .links {
+    flex-direction: column;
+    gap: 0;
+  }
+  footer .copyright {
+    margin: 48px 20px;
+    width: 320px;
+  }
+}/*# sourceMappingURL=adaptiv_Portfolio.css.map */

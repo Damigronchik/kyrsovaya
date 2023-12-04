@@ -1,0 +1,501 @@
+@import url("style_Portfolio.css");
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    header {
+        background: black;
+    }
+
+    .welcome {
+        background: black;
+        .man {
+            background: url(../../img/man_768.png) center center no-repeat;
+            width: 384px;
+        }
+
+        .tittle {
+            min-width: 408px;
+            
+            .tittle_name {
+                font-size: 56px;
+            }
+        }
+    }
+
+    .experience {
+        margin: 80px 40px;
+
+        .info {
+            .companies_past {
+                width: 668px;
+            }
+        }
+
+        .companyNumerous {
+            .company {
+                width: 213px;
+                margin-right: 24px;
+
+                .textCompany {
+                    width: 197px;
+                }
+
+                .dop_textCompany {
+                    width: 197px;
+                }
+            }
+
+            div:last-of-type {
+                margin-right: 0;                                           
+            }
+        }
+    }
+    
+    .philosophy {
+
+        .leftSidePh {
+            margin-inline: 40px;
+
+            .textBlockPh {
+                margin-bottom: 67px;
+            }
+        }
+    }
+
+    .skillset {
+        align-items: center;
+        flex-direction: column;
+        margin-block: 80px;
+        margin-inline: 40px;
+
+        .tittleSkills {
+            width: 688px;
+        }
+
+        .blocks {
+            .top1, .top2, .bottom1, .bottom2 {
+                width: 332px;
+            }
+        }
+    }
+
+    .companiesLogos {
+        flex-wrap: wrap;
+        height: 280px;
+    }
+
+    .projects {
+        flex-direction: column;
+        align-items: center;
+        margin-block: 80px;
+        margin-inline: 40px;
+
+        .left {
+            margin-right: 0px;
+        }
+
+        .left, .right {
+            width: 688px;
+
+            .secTitleProj {
+                margin-right: 0px;
+            }
+    
+            .block {
+                margin-bottom: 48px;
+
+                .laptop, .phone, .bl_phone, .letter {
+                    width: 688px;
+                }
+
+                .laptop {
+                    background: url(../../img/laptop_768.png) center center no-repeat;
+                }
+
+                .phone {
+                    background: url(../../img/phone_768.png) center center no-repeat;
+                }
+
+                .bl_phone {
+                    background: url(../../img/bl_phone_768.png) center center no-repeat;
+                }
+
+                .letter {
+                    background: url(../../img/letter_768.png) center center no-repeat;
+                }
+            }
+    
+            .view {
+                margin: 0px;
+                display: none;
+            }
+        }
+    }
+
+    .photography {
+        margin: 80px 40px;
+
+        .photos {
+            .landscape1, .landscape2, .landscape3, .landscape4 {
+                width: 332px;
+            }
+    
+            .landscape1 {
+                background: url(../../img/landscape1_768.png) center center no-repeat;
+            }
+    
+            .landscape2 {
+                background: url(../../img/landscape2_768.png) center center no-repeat;
+            }
+    
+            .landscape3 {
+                background: url(../../img/landscape3_768.png) center center no-repeat;
+            }
+    
+            .landscape4 {
+                background: url(../../img/landscape4_768.png) center center no-repeat;
+            }
+        }
+    }
+
+    .reg {
+        margin-block: 80px;
+        margin-inline: 40px;
+
+        .right {
+            label {
+                input {
+                    width: clamp(332px, 20vw, 526px);
+                }
+            }
+        }
+    }
+
+    footer {
+        .footerDiv {
+            margin-inline: 40px;
+        }
+
+        .copyright {
+            max-width: 329px;
+            margin-left: 40px;
+        }
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    header {
+        background: black;
+
+        .header {
+            margin-inline: 20px;
+            height: 72px;
+    
+            nav {
+                display: none;
+            }
+    
+            .menu {
+                display: flex;
+                flex-direction: column;
+                align-items: end;
+                gap: 5px;
+    
+                .line1, .line2 {
+                    width: 18px;
+                    height: 3px;
+                    background: #C4C4C4;
+                }
+    
+                .line2 {
+                    width: 13px;
+                }
+            }
+
+            .menu:hover {
+                .line1, .line2{
+                    box-shadow: 1px 1px 5px white;
+                }
+            }
+        }
+    }
+
+    .welcome {
+        background: black;
+        flex-direction: column;
+        height: 652px;
+        margin-inline: 20px;
+        margin-bottom: 48px;
+
+        .man {
+            background: url(../../img/man_360.png) center center no-repeat;
+            width: 360px;
+            height: 288px;
+        }
+
+        .tittle {
+            align-items: center;
+            min-width: 320px;
+            left: 0%;
+            margin-top: 48px;
+
+            .tittle_name {
+                font-size: 32px;
+            }
+        }
+    }
+
+    .experience {
+        margin: 48px 20px;
+        align-items: center;
+
+        .info {
+            .companies_past {
+                font-size: 32px;
+                width: 320px;
+            }
+        }
+
+        .companyNumerous {
+            flex-direction: column;
+
+            .company {
+                width: 320px;
+                margin-bottom: 40px;
+
+                .dop_textCompany {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+    .philosophy {
+        flex-direction: column;
+        height: 900px;
+
+        .leftSidePh {
+            margin-inline: 20px;
+            margin-top: 48px;
+            max-width: 100%;
+
+            .textBlockPh {
+                margin-bottom: 90.75px;
+
+                .tittlePh {
+                    font-size: 32px;
+                }
+            }
+        }
+
+        .forImgSphere {
+            background: url(../../img/sphere_360.png) center center no-repeat;
+            width: 100%;
+            height: 450px;
+            background-size: cover;
+        }
+
+        .forImgPlane {
+            background: url(../../img/plane_360.png) center center no-repeat;
+            width: 100%;
+            height: 450px;
+            background-size: cover;
+        }
+    }
+
+    .skillset {
+        flex-direction: column;
+        align-items: center;
+        margin-block: 64px;
+        margin-inline: 20px;
+
+        .tittleSkills {
+            width: 320px;
+            height: 252px;
+            margin-right: 0;
+            margin-bottom: 48px;
+
+            .tittle {
+                font-size: 32px;
+            }
+        }
+
+        .blocks {
+            max-width: 320px;
+
+            .top1 {
+                width: 320px;
+                height: 176px;
+            }
+
+            .top2, .bottom1, .bottom2 {
+                width: 320px;
+                height: 200px;
+            }
+
+            .bottom1 {
+                margin-bottom: 48px;
+            }
+        }
+    }
+
+    .companiesLogos {
+        flex-wrap: wrap;
+        height: 280px;
+
+        .company {
+            width: 178px;
+            height: 138px;
+        }
+    }
+
+    .projects {
+        margin-top: 64px;
+        margin-bottom: 22px;
+        margin-inline: 20px;
+        flex-direction: column;
+        align-items: center;
+
+        .left {
+            margin-right: 0;
+        }
+
+        .left, .right {
+            width: 320px;
+
+            .secTitleProj {
+                font-size: 32px;
+                margin-right: 0;
+            }
+
+            .block {
+                margin-bottom: 48px;
+
+                .laptop, .phone, .bl_phone, .letter {
+                    width: 320px;
+                    height: 400px;
+                }
+
+                .laptop {
+                    background: url(../../img/laptop_360.png) center center no-repeat;
+                }
+    
+                .phone {
+                    background: url(../../img/phone_360.png) center center no-repeat;
+                }
+    
+                .bl_phone {
+                    background: url(../../img/bl_phone_360.png) center center no-repeat;
+                }
+    
+                .letter {
+                    background: url(../../img/letter_360.png) center center no-repeat;
+                }
+
+                .text {
+                    max-height: 354px;
+                }
+            }
+
+            .view {
+                display: none;
+            }
+        }
+    }
+
+    .photography {
+        align-items: center;
+        margin: 48px 20px;
+
+        .tittle {
+            font-size: 32px;
+        }
+
+        .underTittle {
+            width: 320px;
+            margin-bottom: 40px;
+        }
+
+        .countries {
+            flex-wrap: wrap;
+            width: 320px;
+            height: 126px;
+
+            a {
+                width: 114px;
+                text-align: center;
+            }
+        }
+
+        .photos {
+            flex-direction: column;
+
+            .landscape1, .landscape2, .landscape3, .landscape4 {
+                width: 320px;
+            }
+    
+            .landscape1 {
+                background: url(../../img/landscape1_360.png) center center no-repeat;
+            }
+    
+            .landscape2 {
+                background: url(../../img/landscape2_360.png) center center no-repeat;
+            }
+    
+            .landscape3 {
+                background: url(../../img/landscape3_360.png) center center no-repeat;
+            }
+    
+            .landscape4 {
+                background: url(../../img/landscape4_360.png) center center no-repeat;
+            }
+        }
+    }
+
+    .reg {
+        flex-direction: column;
+        margin-block: 48px;
+        margin-inline: 20px;
+
+        .left {
+            margin-right: 0;
+            margin-bottom: 48px;
+        }
+
+        .right {
+            align-items: center;
+
+            label {
+                input {
+                    width: 320px;
+                }
+            }
+
+            a {
+                width: 254px;
+            }
+        }
+    }
+
+    footer {
+        height: 672px;
+        
+        .footerDiv {
+            flex-direction: column;
+            margin: 48px 20px 0;
+
+            .logos {
+                margin-bottom: 48px;
+            }
+
+            .links {
+                flex-direction: column;
+                gap: 0;
+            }
+        }
+
+        .copyright {
+            margin: 48px 20px;
+            width: 320px;
+        }
+    }
+}
